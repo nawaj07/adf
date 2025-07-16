@@ -15,6 +15,10 @@
 			"type": "string",
 			"defaultValue": "https://storagenoor.dfs.core.windows.net/"
 		},
+		"linkedgit_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://raw.githubusercontent.com/"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -47,6 +51,9 @@
 					},
 					"linkedservicedl_properties_typeProperties_url": {
 						"value": "[parameters('linkedservicedl_properties_typeProperties_url')]"
+					},
+					"linkedgit_properties_typeProperties_url": {
+						"value": "[parameters('linkedgit_properties_typeProperties_url')]"
 					}
 				}
 			},
