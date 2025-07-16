@@ -8,11 +8,11 @@
 		"linkedservicedl_accountKey": {
 			"value": ""
 		},
-		"linkedservicedl_properties_typeProperties_url": {
-			"value": "https://storagenoor.dfs.core.windows.net/"
-		},
 		"linkedgit_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/"
+		},
+		"linkedservicedl_properties_typeProperties_url": {
+			"value": "https://storagenoor.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""
